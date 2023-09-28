@@ -1,0 +1,61 @@
+:root{
+    --dark-brown: #65451F;
+    --light-beige: #EAC696;
+    --main-green: #61764B;
+}
+
+#menu{
+    list-style-type: none;
+    display: flex;
+    gap: 1.25rem;
+    justify-content: end;
+}
+#menu a{
+    text-decoration: none;
+    color: var(--light-beige);
+    padding: 1.25rem 0;
+}
+header{
+    background-color: var(--main-green);
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.hero{
+   min-height: 25rem;
+   background-image: url(/img/hero-img.jpg);
+   display: flex;
+   justify-content: center;
+   background-position: bottom;
+   background-size: cover;
+   color: var(--light-beige)
+
+}
+nav{
+    padding: .625rem
+}
+#menu-toggle{
+    display: none;
+    background-color: var(--main-green);
+    color: var(--light-beige);
+    border: none;
+}
+
+#menu.active{
+display: flex;
+}
+@media screen and (max-width: 30em) {
+    #menu-toggle{
+        display: block;
+    }
+    #menu{
+        display: none; 
+        position: absolute;
+        flex-direction: column;
+        background-color: var(--main-green);
+        padding: .625rem;
+    }
+}
