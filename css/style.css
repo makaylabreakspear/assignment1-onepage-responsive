@@ -60,7 +60,7 @@ display: flex;
 /**********hero*********/
 .hero{
    min-height: 25rem;
-   background-image: url(..../img/herooooo.jpg);
+   background-image: url(../img/herooooo.jpg);
    display: flex;
    justify-content: center;
    background-position: bottom;
