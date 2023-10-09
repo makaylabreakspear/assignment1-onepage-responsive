@@ -6,11 +6,11 @@
 }
 @font-face {
     font-family:"main";
-    src: url(/fonts/Young_Serif/YoungSerif-Regular.ttf);
+    src: url(../fonts/Young_Serif/YoungSerif-Regular.ttf);
 }
 @font-face {
     font-family:"body";
-    src: url(/font-body/Nunito/Nunito-VariableFont_wght.ttf);
+    src: url(../font-body/Nunito/Nunito-VariableFont_wght.ttf);
 }
 html{
     scroll-behavior: smooth;
@@ -60,7 +60,7 @@ display: flex;
 /**********hero*********/
 .hero{
    min-height: 25rem;
-   background-image: url(/img/herooooo.jpg);
+   background-image: url(../img/herooooo.jpg);
    display: flex;
    justify-content: center;
    background-position: bottom;
